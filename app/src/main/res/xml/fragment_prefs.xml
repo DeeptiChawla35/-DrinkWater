@@ -1,0 +1,34 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:preference="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Daily Need Measurement "/>
+
+    <com.quantum.drinkwater.prefernce.NumberPickerPreference
+        android:key="key_weight_number"
+        android:title="Weight"
+
+        preference:maxValue="@integer/weight_max_vlaue"
+        preference:minValue="@integer/weight_min_value"
+        android:summary="Add your weight!"
+        preference:wrapSelectorWheel="false"
+        />
+
+    <SwitchPreference
+        android:defaultValue="false"
+
+        android:key="key_training"
+        android:title="Training"/>
+
+    <com.quantum.drinkwater.prefernce.NumberPickerPreference
+        android:defaultValue="2500"
+        android:key="key_water_recommendation"
+        android:title="Need Water"
+        preference:maxValue="@integer/water_recom_number_max_value"
+        preference:minValue="@integer/water_recom_number_min_value"
+        android:summary="2500 ml"
+        preference:wrapSelectorWheel="false" />
+
+
+
+
+</PreferenceScreen>
