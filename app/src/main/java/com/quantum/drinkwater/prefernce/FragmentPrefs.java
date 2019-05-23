@@ -119,9 +119,6 @@ public class FragmentPrefs extends PreferenceFragment
 
     }
 
-
-
-
     TimePickerDialog.OnTimeSetListener timeFrom = new TimePickerDialog.OnTimeSetListener() {
         @Override
         public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
@@ -159,7 +156,6 @@ public class FragmentPrefs extends PreferenceFragment
 
     @Override
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
-
 
     }
 

@@ -141,6 +141,53 @@
             android:textSize="18sp" />
 
 
+        <TextView
+            android:id="@+id/sleep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wakeup"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Sleeping Time"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/sleeping_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wakeup_time"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:gravity="right|end"
+            android:text="22:00 PM"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/water"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sleeping_time"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Water Need"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/water_need"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sleep"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:gravity="right|end"
+            android:text="1200 ML"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp" />
     </RelativeLayout>
 
 
